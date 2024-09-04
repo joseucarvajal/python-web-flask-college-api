@@ -19,5 +19,6 @@ def create_course():
     
     #return jsonify(user.__dict__)
     return jsonify({
-        "dato": course.name, 
+        "version": "0.0.1",
+        "dato": course.name,
     })
